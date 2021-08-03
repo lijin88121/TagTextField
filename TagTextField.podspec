@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
   
-  spec.source       = { :git => "https://github.com/lijin88121/TagTextField.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/lijin88121/TagTextField.git", :tag => "#{0.0.1}" }
 
   spec.source_files  = "TagTextField/**/*.{h,m,swift}"
 end
