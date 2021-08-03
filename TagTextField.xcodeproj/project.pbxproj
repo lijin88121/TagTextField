@@ -16,6 +16,8 @@
 		22E9072126B9BAE4005323C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E9072026B9BAE4005323C1 /* Preview Assets.xcassets */; };
 		22E9072C26B9BAE4005323C1 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9072B26B9BAE4005323C1 /* ExampleTests.swift */; };
 		22E9073726B9BAE4005323C1 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9073626B9BAE4005323C1 /* ExampleUITests.swift */; };
+		22E9074326B9BE0E005323C1 /* TagTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9074226B9BE0E005323C1 /* TagTextField.swift */; };
+		22E9074426B9BE0E005323C1 /* TagTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9074226B9BE0E005323C1 /* TagTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 		22E9073226B9BAE4005323C1 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E9073626B9BAE4005323C1 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		22E9073826B9BAE4005323C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E9074226B9BE0E005323C1 /* TagTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				22E906FC26B9BAC0005323C1 /* TagTextField.h */,
+				22E9074226B9BE0E005323C1 /* TagTextField.swift */,
 				22E906FD26B9BAC0005323C1 /* Info.plist */,
 			);
 			path = TagTextField;
@@ -297,6 +301,7 @@
 				TargetAttributes = {
 					22E906F826B9BAC0005323C1 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					22E9070126B9BAC0005323C1 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -381,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9074326B9BE0E005323C1 /* TagTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E9071C26B9BAE3005323C1 /* ContentView.swift in Sources */,
+				22E9074426B9BE0E005323C1 /* TagTextField.swift in Sources */,
 				22E9071A26B9BAE3005323C1 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +570,7 @@
 		22E9070E26B9BAC0005323C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -579,6 +587,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lijin88121.TagTextField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -587,6 +596,7 @@
 		22E9070F26B9BAC0005323C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -611,6 +621,7 @@
 		22E9071126B9BAC0005323C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TagTextFieldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -628,6 +639,7 @@
 		22E9071226B9BAC0005323C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TagTextFieldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
