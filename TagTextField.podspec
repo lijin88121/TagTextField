@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TagTextField"
-  spec.version      = "0.0.3"
+  spec.version      = "1.0.0"
   spec.summary      = "SwiftUI Multiline Tag View with Text Input."
   spec.description  = <<-DESC
     TagTextField consists of Tags List and Text Input.
