@@ -5,8 +5,8 @@ Multiline tag field with text input
 
 # Preview
 
-![Default](/Example/screenshot1.png)
-![Customized](/Example/screenshot2.png)
+![Default](/Example/screenshot_normal.png)
+![Customized](/Example/screenshot_customized.png)
 
 # Customization
 ![Theme Customization](/Example/screenshot_theme.png)
