@@ -1,4 +1,4 @@
-# TagTextField
+# SwifUI - TagTextField
 Multiline tag field with text input
 
 ![SwiftUI](/Example/screenshot_preview.png)
