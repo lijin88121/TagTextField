@@ -1,5 +1,5 @@
 # SwiftUI - TagTextField for iOS 13+
-Multiline tag field with text input
+Auto-resizable & Multiline tag field with text input. 
 
 ![SwiftUI](/Example/screenshot_preview.png)
 
